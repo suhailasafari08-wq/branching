@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#071a31" />
+    <meta
+      name="description"
+      content="Contact Hira Tea Glass Store with a question about the collection."
+    />
+    <title>Contact | Hira Tea Glass Store</title>
+    <link rel="icon" type="image/png" href="assets/images/hira-mark.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a
+          class="brand"
+          href="index.html"
+          aria-label="Hira Tea Glass Store home"
+        >
+          <img src="assets/images/hira-mark.png" alt="" class="brand-mark" />
+          <span class="brand-name">Hira Tea Glass Store</span>
+        </a>
+        <button
+          class="menu-button"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="main-navigation"
+        >
+          <span></span><span></span>
+        </button>
+        <nav
+          class="main-navigation"
+          id="main-navigation"
+          aria-label="Main navigation"
+        >
+          <a href="index.html">Home</a>
+          <a href="collection.html">Collection</a>
+          <a href="about.html">Our story</a>
+          <a href="glass-guide.html">Glass guide</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+          <a class="nav-contact" href="contact.html"
+            >Get in touch <span>↗</span></a
+          >
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="page-hero section-wrap contact-hero">
+        <h1>We would love to <span>hear from you.</span></h1>
+        <p>
+          Have a question about a glass or want to know more about the
+          collection? Send us a message.
+        </p>
+      </section>
+      <section class="section-wrap contact-layout section-space">
+        <div class="contact-copy">
+          <h2>Let's talk <span>tea glasses.</span></h2>
+          <p>
+            Whether you have spotted a style you like or just want a little more
+            information, you are welcome to get in touch.
+          </p>
+          <div class="contact-card">
+            <span class="contact-icon">✉</span>
+            <div>
+              <strong>Questions about the collection?</strong>
+              <p>
+                Tell us which glass caught your eye and what you would like to
+                know.
+              </p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <span class="contact-icon">♡</span>
+            <div>
+              <strong>Looking for something special?</strong>
+              <p>Share the style or details you have in mind.</p>
+            </div>
+          </div>
+          <div class="contact-side-photo photo-frame">
+            <img
+              src="assets/images/cap8.webp"
+              alt="Clear glass tea cup with gold handle and saucer"
+            />
+          </div>
+        </div>
+        <div class="form-wrap">
+          <form class="contact-form" id="contact-form">
+            <h2>Send a message</h2>
+            <label for="name">Your name</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Your name"
+              autocomplete="name"
+              required
+            />
+            <label for="email">Email address</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="you@example.com"
+              autocomplete="email"
+              required
+            />
+            <label for="topic">What is it about?</label>
+            <select id="topic" name="topic">
+              <option value="collection">A glass in the collection</option>
+              <option value="general">A general question</option>
+              <option value="feedback">Feedback or suggestion</option>
+            </select>
+            <label for="message">Your message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Write your message here..."
+              required
+            ></textarea>
+            <button class="button button-gold form-submit" type="submit">
+              Send message <span>↗</span>
+            </button>
+          </form>
+          <div
+            class="form-success"
+            id="form-success"
+            role="status"
+            aria-live="polite"
+            hidden
+          >
+            <span>♡</span>
+            <h2>Thank you!</h2>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="section-wrap footer-main">
+        <a class="brand footer-brand" href="index.html">
+          <img src="assets/images/hira-mark.png" alt="" class="brand-mark" />
+          <span class="brand-name">Hira Tea Glass Store</span>
+        </a>
+        <p>Tea glasses for everyday moments and special gatherings.</p>
+        <div class="footer-links">
+          <a href="collection.html">Collection</a>
+          <a href="about.html">Our story</a>
+          <a href="glass-guide.html">Glass guide</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="section-wrap footer-bottom">
+        <span>© <span data-year></span> Hira Tea Glass Store</span>
+        <a href="index.html">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
